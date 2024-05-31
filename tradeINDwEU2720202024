@@ -1,45 +1,43 @@
-import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
-# Creating the data frame
+# Data preparation
+years = [2020, 2021, 2022, 2023]
+
 data = {
-    'HSCode': [
-        '47010010 [Mechanical pulpwood - thermo]',
-        '47010020 [Mechanical pulpwood - other]',
-        '4702 [Chemical dissolving pulp]',
-        '470311 [Chemical soda unbleached coniferous]',
-        '470319 [Chemical soda unbleached non coniferous]',
-        '470321 [Chemical soda bleached coniferous]',
-        '470329 [Chemical soda bleached non coniferous]',
-        '470411 [Chemical sulfit unbleached coniferous]',
-        '470419 [Chemical sulfit unbleached non coniferous]',
-        '470421 [Chemical sulfit bleached coniferous]',
-        '470429 [Chemical sulfit bleached non coniferous]',
-        '4705 [Combination]'
-    ],
-    '2020': [None, 140760, 10600, 1008131, 311193, None, None, None, None, 45080, 409297, 10314361],
-    '2021': [1145149, 210095, 5600, 1155010, None, 776341, None, None, None, 35420, 557289, 22229177],
-    '2022': [None, 76682, 12200, 2928759, None, None, 1, None, None, 23671, 624309, 19076999],
-    '2023': [None, None, 4000, 5886642, None, None, 30, None, None, 27720, 350470, 11890972]
+    "47010010 [Mechanical pulpwood - thermo]": [0, 1145149, 0, 0],
+    "47010020 [Mechanical pulpwood - other]": [140760, 210095, 76682, 0],
+    "4702 [Chemical dissolving pulp]": [10600, 5600, 12200, 4000],
+    "470311 [Chemical soda unbleached coniferous]": [1008131, 1155010, 2928759, 5886642],
+    "470319 [Chemical soda unbleached non coniferous]": [311193, 0, 0, 0],
+    "470321 [Chemical soda bleached coniferous]": [0, 776341, 0, 0],
+    "470329 [Chemical soda bleached non coniferous]": [0, 0, 1, 30],
+    "470411 [Chemical sulfit unbleached coniferous]": [0, 0, 0, 0],
+    "470419 [Chemical sulfit unbleached non coniferous]": [0, 0, 0, 0],
+    "470421 [Chemical sulfit bleached coniferous]": [45080, 35420, 23671, 27720],
+    "470429 [Chemical sulfit bleached non coniferous]": [409297, 557289, 624309, 350470],
+    "4705 [Combination]": [10314361, 22229177, 19076999, 11890972]
 }
 
-df = pd.DataFrame(data)
+categories = list(data.keys())
+values = np.array(list(data.values()))
 
-# Set index to 'HSCode'
-df.set_index('HSCode', inplace=True)
+# Create the plot
+fig, ax = plt.subplots(figsize=(10, 6))
 
-# Transpose the DataFrame to make it easier to plot
-df = df.T
+bottom = np.zeros(len(years))
 
-# Plotting the data
-plt.figure(figsize=(14, 8))
-for column in df.columns:
-    plt.plot(df.index, df[column], marker='o', label=column)
+for i, category in enumerate(categories):
+    ax.bar(years, values[i], bottom=bottom, label=category)
+    bottom += values[i]
 
-plt.title('Trade between Indonesia and EU27 countries (HSCode 47)')
-plt.xlabel('Year')
-plt.ylabel('Trade Amount (in kilograms)')
-plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
-plt.grid(True)
+ax.set_xlabel('Year')
+ax.set_ylabel('Trade Amount (kg)')
+ax.set_title('Trade between Indonesia and EU27 countries (HSCode 47)')
+ax.legend(loc='upper left', bbox_to_anchor=(1, 1))
+ax.grid(True, linestyle='--', alpha=0.7)
+plt.xticks(years)
 plt.tight_layout()
+
+# Display the plot
 plt.show()
