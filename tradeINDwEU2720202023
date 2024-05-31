@@ -12,10 +12,10 @@ data = {
     "470319 [Chemical soda unbleached non coniferous]": [311193, 0, 0, 0],
     "470321 [Chemical soda bleached coniferous]": [0, 776341, 0, 0],
     "470329 [Chemical soda bleached non coniferous]": [0, 0, 1, 30],
-    "470411 [Chemical sulfit unbleached coniferous]": [0, 0, 0, 0],
-    "470419 [Chemical sulfit unbleached non coniferous]": [0, 0, 0, 0],
-    "470421 [Chemical sulfit bleached coniferous]": [45080, 35420, 23671, 27720],
-    "470429 [Chemical sulfit bleached non coniferous]": [409297, 557289, 624309, 350470],
+    "470411 [Chemical sulphite unbleached coniferous]": [0, 0, 0, 0],
+    "470419 [Chemical sulphite unbleached non coniferous]": [0, 0, 0, 0],
+    "470421 [Chemical sulphite bleached coniferous]": [45080, 35420, 23671, 27720],
+    "470429 [Chemical sulphite bleached non coniferous]": [409297, 557289, 624309, 350470],
     "4705 [Combination]": [10314361, 22229177, 19076999, 11890972]
 }
 
