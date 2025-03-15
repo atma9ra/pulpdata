@@ -1,0 +1,11 @@
+id,type,name,domicile,cluster
+C0012,Company,"Mitra Foresta Lestari, PT",Indonesia,Cluster_002
+P0016,Person,"Hartono",Indonesia,Cluster_002
+P0017,Person,"Togar Maurid Butar-Butar",Indonesia,Cluster_002
+C0013,Company,"Goodwood BCL, SDN BHD",Malaysia,Cluster_002
+C0014,Company,"Great Mahakam, SDN BHD",Malaysia,Cluster_002
+C0015,Company,"Hutani Cipta Bersama, PT",Indonesia,Cluster_002
+C0016,Company,"Prosper Grow, SDN BHD",Malaysia,Cluster_002
+C0017,Company,"Prosper Season, SDN BHD",Malaysia,Cluster_002
+C0018,Company,"Hutani Bumi Sejahtera, PT",Indonesia,Cluster_002
+C0019,Company,"Global Tanaman Lestari, PT",Indonesia,Cluster_002
