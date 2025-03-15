@@ -1,27 +1,27 @@
-id,type,name,domicile
-C0001,Company,"Great Reach Global, LTD",Samoa
-C0002,Company,"Olympia Medal, SDN BHD",Malaysia
-C0003,Company,"Inspired Medal, SDN BHD",Malaysia
-C0004,Company,"Flora Nuansa Hijau, PT",Indonesia
-C0005,Company,"Andalan Agri Mitra, PT",Indonesia
-C0006,Company,"Maju Hijau Lestari, PT",Indonesia
-C0007,Company,"Tunas Wana Sejahtera, PT",Indonesia
-C0008,Company,"Wana Indonesia Abadi, PT",Indonesia
-C0009,Company,"Borneo Hijau Lestari, PT",Indonesia
-C0010,Company,"Borneo Foresta Industri, PT",Indonesia
-C0011,Company,"EGL Capital, SDN BHD",Malaysia
-P0001,Person,Muhartati,Indonesia
-P0002,Person,Muhammad Sobirin,Indonesia
-P0003,Person,Hasudungan Simamora,Indonesia
-P0004,Person,Siet Lin Lee,Malaysia
-P0005,Person,Enoch Ng,Malaysia
-P0006,Person,Chow Kok Chean,Malaysia
-P0007,Person,Ivy Low May May,Malaysia
-P0008,Person,Tan Keng Ping,Malaysia
-P0009,Person,Yap Xian Long,Malaysia
-P0010,Person,Chew Chong Pan,Malaysia
-P0011,Person,Choong Yoke Leng,Malaysia
-P0012,Person,Cheong Choon Wah,Malaysia
-P0013,Person,Budi Santoso,Indonesia
-P0014,Person,Napalia Niwan Pasulu,Indonesia
+id,type,name,domicile,cluster
+C0001,Company,"Great Reach Global, LTD",Samoa,Cluster_001
+C0002,Company,"Olympia Medal, SDN BHD",Malaysia,Cluster_001
+C0003,Company,"Inspired Medal, SDN BHD",Malaysia,Cluster_001
+C0004,Company,"Flora Nuansa Hijau, PT",Indonesia,Cluster_001
+C0005,Company,"Andalan Agri Mitra, PT",Indonesia,Cluster_001
+C0006,Company,"Maju Hijau Lestari, PT",Indonesia,Cluster_001
+C0007,Company,"Tunas Wana Sejahtera, PT",Indonesia,Cluster_001
+C0008,Company,"Wana Indonesia Abadi, PT",Indonesia,Cluster_001
+C0009,Company,"Borneo Hijau Lestari, PT",Indonesia,Cluster_001
+C0010,Company,"Borneo Foresta Industri, PT",Indonesia,Cluster_001
+C0011,Company,"EGL Capital, SDN BHD",Malaysia,Cluster_001
+P0001,Person,Muhartati,Indonesia,Cluster_001
+P0002,Person,Muhammad Sobirin,Indonesia,Cluster_001
+P0003,Person,Hasudungan Simamora,Indonesia,Cluster_001
+P0004,Person,Siet Lin Lee,Malaysia,Cluster_001
+P0005,Person,Enoch Ng,Malaysia,Cluster_001
+P0006,Person,Chow Kok Chean,Malaysia,Cluster_001
+P0007,Person,Ivy Low May May,Malaysia,Cluster_001
+P0008,Person,Tan Keng Ping,Malaysia,Cluster_001
+P0009,Person,Yap Xian Long,Malaysia,Cluster_001
+P0010,Person,Chew Chong Pan,Malaysia,Cluster_001
+P0011,Person,Choong Yoke Leng,Malaysia,Cluster_001
+P0012,Person,Cheong Choon Wah,Malaysia,Cluster_001
+P0013,Person,Budi Santoso,Indonesia,Cluster_001
+P0014,Person,Napalia Niwan Pasulu,Indonesia,Cluster_001
 P0015,Person,Yudiana,Indonesia
