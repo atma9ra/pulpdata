@@ -1,0 +1,21 @@
+id,type,name,domicile,cluster
+C0020,Company,"Borneo Foresta Industri, PT",Indonesia,Cluster_003
+C0021,Company,"Borneo Hijau Lestari, PT",Indonesia,Cluster_003
+C0022,Company,"Green Meadows Fiber Product, LTD",Hongkong,Cluster_003
+C0023,Company,"Hillrise Commercial, INC",British Virgin Islands,Cluster_003
+C0024,Company,"Permata Borneo Abadi, PT",Indonesia,Cluster_003
+C0025,Company,"Santan Borneo Abadi, PT",Indonesia,Cluster_003
+C0026,Company,"Bakayan Jaya Abadi, PT",Indonesia,Cluster_003
+C0027,Company,"Mahakam Persada Sakti, PT",Indonesia,Cluster_003
+C0028,Company,"Dharma Hutani Makmur, PT",Indonesia,Cluster_003
+C0029,Company,"Permata Hijau Khatulistiwa, PT",Indonesia,Cluster_003
+P0018,Person,Bujung,Indonesia,Cluster_003
+P0019,Person,Lim Ming Lai,Indonesia,Cluster_003
+P0020,Person,Soeprijadi,Indonesia,Cluster_003
+P0021,Person,Tje Hwa,Indonesia,Cluster_003
+P0022,Person,Antonius Silalahi,Indonesia,Cluster_003
+P0023,Person,Herry Harnanki,Indonesia,Cluster_003
+P0024,Person,Johannes Perangin-Angin,Indonesia,Cluster_003
+P0025,Person,Jaka Suyudiono,Indonesia,Cluster_003
+P0026,Person,Paulo,Indonesia,Cluster_003
+P0027,Person,Bunyan Armansyah,Indonesia,Cluster_003
