@@ -2,7 +2,7 @@ start_id,end_id,relation_type,role,share,percentage,start_date,end_date,status
 P0018,C0010,OWNS,Commissioner,,50,2020-06-24,,Recent
 P0019,C0010,OWNS,Shareholder,,50,2020-06-24,,Recent
 P0020,C0010,DIRECTOR_OF,Director,,,2020-06-24,,Recent
-P0021,C0021,DIRECTOR_OF,Commissioner,,,2020-08-24,,Recent
+P0021,C0009,DIRECTOR_OF,Commissioner,,,2020-08-24,,Recent
 P0022,C0009,DIRECTOR_OF,Director,,,2020-08-24,,Recent
 C0022,C0009,OWNS,Shareholder,,99,2020-08-24,,Recent
 C0023,C0009,OWNS,Shareholder,,1,2020-08-24,,Recent
