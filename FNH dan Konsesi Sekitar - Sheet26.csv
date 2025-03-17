@@ -1,0 +1,6 @@
+start_id,end_id,relation_type,role,share,percentage,start_date,end_date,status
+C0021,C0020,OWNS,Shareholder,,50,2012-03-26,,
+C0030,C0020,OWNS,Shareholder,,50,2012-03-26,,
+P0028,C0020,DIRECTOR_OF,Commissioner,,,2012-03-26,,
+P0029,C0020,DIRECTOR_OF,Director,,,2012-03-26,,
+P0014,C0020,DIRECTOR_OF,Director,,,,,Recent
