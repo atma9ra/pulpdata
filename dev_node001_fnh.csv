@@ -1,0 +1,27 @@
+id;label;type;domicile;cluster
+C0001;Great Reach Global, LTD;Company;Samoa;Cluster_001
+C0002;Olympia Medal, SDN BHD;Company;Malaysia;Cluster_001
+C0003;Inspired Medal, SDN BHD;Company;Malaysia;Cluster_001
+C0004;Flora Nuansa Hijau, PT;Company;Indonesia;Cluster_001
+C0005;Andalan Agri Mitra, PT;Company;Indonesia;Cluster_001
+C0006;Maju Hijau Lestari, PT;Company;Indonesia;Cluster_001
+C0007;Tunas Wana Sejahtera, PT;Company;Indonesia;Cluster_001
+C0008;Wana Indonesia Abadi, PT;Company;Indonesia;Cluster_001
+C0009;Borneo Hijau Lestari, PT;Company;Indonesia;Cluster_001
+C0010;Borneo Foresta Industri, PT;Company;Indonesia;Cluster_001
+C0011;EGL Capital, SDN BHD;Company;Malaysia;Cluster_001
+P0001;Muhartati;Person;Indonesia;Cluster_001
+P0002;Muhammad Sobirin;Person;Indonesia;Cluster_001
+P0003;Hasudungan Simamora;Person;Indonesia;Cluster_001
+P0004;Siet Lin Lee;Person;Malaysia;Cluster_001
+P0005;Enoch Ng;Person;Malaysia;Cluster_001
+P0006;Chow Kok Chean;Person;Malaysia;Cluster_001
+P0007;Ivy Low May May;Person;Malaysia;Cluster_001
+P0008;Tan Keng Ping;Person;Malaysia;Cluster_001
+P0009;Yap Xian Long;Person;Malaysia;Cluster_001
+P0010;Chew Chong Pan;Person;Malaysia;Cluster_001
+P0011;Choong Yoke Leng;Person;Malaysia;Cluster_001
+P0012;Cheong Choon Wah;Person;Malaysia;Cluster_001
+P0013;Budi Santoso;Person;Indonesia;Cluster_001
+P0014;Napalia Niwan Pasulu;Person;Indonesia;Cluster_001
+P0015;Yudiana;Person;Indonesia;Cluster_001
