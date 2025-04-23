@@ -1,4 +1,4 @@
-id,type,name,domicile,cluster
+id,type,label,domicile,cluster
 C0001,Company,"Great Reach Global, LTD",Samoa,Cluster_001
 C0002,Company,"Olympia Medal, SDN BHD",Malaysia,Cluster_001
 C0003,Company,"Inspired Medal, SDN BHD",Malaysia,Cluster_001
