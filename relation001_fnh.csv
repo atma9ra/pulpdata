@@ -1,4 +1,4 @@
-start_id,end_id,relation_type,role,share,percentage,start_date,end_date,status
+source,target,relation_type,role,share,percentage,start_date,end_date,status
 P0010,C0002,DIRECTOR_OF,Director,,,2022-10-06,2022-12-23,Former
 P0007,C0002,DIRECTOR_OF,Secretary,,,2023-10-03,2024-01-31,Recent
 P0006,C0002,DIRECTOR_OF,Director,,,2023-08-07,2024-01-31,Recent
